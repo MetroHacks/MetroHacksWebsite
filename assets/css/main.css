@@ -1759,6 +1759,10 @@ img.item-img {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
+.modal {
+  padding: 50px;
+}
+
 /*--------------------*/
 /* FAQ */
 /*--------------------*/
@@ -1836,6 +1840,166 @@ img.item-img {
   margin-right: 5px;
 }
 
+.people-gallery .people-gallery {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.people-gallery {
+    position: relative;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.people-item__person-content {
+}
+.people-item__person-content {
+    text-align: left;
+}
+.people-item__person-content {
+    text-align: center;
+    cursor: pointer;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.pb-gallery--greyscale .people-item__image, .pb-gallery--greyscale .people-item__initials {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.people-item__image, .people-item__initials {
+    float: left;
+    margin-right: 15px;
+}
+.people-item__image, .people-item__initials {
+    max-width: 80px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.pb-testimonial__author-name, .people-item__title {
+    font-size: 16px;
+    font-size: 1rem;
+}
+.pb-testimonial__author-name, .people-item__title {
+    font-size: 14px;
+    font-size: .875rem;
+    letter-spacing: -.2px;
+    font-weight: 800;
+    margin-bottom: 0;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.people-item__person-content {
+    text-align: left;
+}
+.people-item__person-content {
+    text-align: center;
+    cursor: pointer;
+}
+
+.pb-testimonial__author-position, .people-item__position {
+    font-size: 12px;
+    font-size: .75rem;
+    line-height: 1.2;
+    color: #777;
+    margin-top: 7px;
+    width: 400px;
+    text-align: left;
+    float: right;
+    margin-right: 50px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.people-item__person-content {
+    text-align: left;
+}
+.people-item__person-content {
+    text-align: center;
+    cursor: pointer;
+}
+
+.people-gallery .people-gallery__person:nth-child(3n+1) {
+    padding-right: 5px;
+}
+.people-gallery .people-gallery__person {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 33%;
+    -ms-flex: 0 1 33%;
+    flex: 0 1 33%;
+    text-align: left;
+    width: 33%;
+}
+.people-gallery .people-gallery__person {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 25%;
+    -ms-flex: 0 1 25%;
+    flex: 0 1 25%;
+}
+.people-gallery .people-gallery__person {
+    list-style-type: none;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 50%;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+    margin: 20px 0;
+    font-family: aktiv-grotesk,sans-serif;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.people-item__person-content {
+    text-align: left;
+}
+.people-item__person-content {
+}
+.people-item__person-content {
+    text-align: center;
+    cursor: pointer;
+}
+
 /*--------------------*/
 /* EVENT SCHEDULE */
 /*--------------------*/
@@ -1855,15 +2019,15 @@ img.item-img {
   color: grey;
   /* type colour */
   font-family: 'Poppins', sans-serif;
-  margin: 50px;
+  /*margin: 50px;
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 0px;
   letter-spacing: 0.5px;
-  position: relative;
+  position: relative;*/
   line-height: 1.4em;
   font-size: 1.03em;
-  padding: 50px;
+  padding: 3em;
   list-style: none;
   text-align: left;
   font-weight: 100;
