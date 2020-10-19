@@ -413,6 +413,15 @@ footer h2, h3 {
   padding: 2em;
 }
 
+.recordings {
+  width: 100%;
+  height: 100%;
+}
+
+.spacing-ceremony {
+  margin-bottom: 10%;
+}
+
 /* do not group these rules */
 *::-webkit-input-placeholder {
     color: white;
