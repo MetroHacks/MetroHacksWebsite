@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,OAEI,wBAAwB,CACxB,iBAAkB,CAClB,gBACJ,CAEA,IACI,wBACJ,CAEA,UACI,UACJ","file":"main.4b0ad6bf.chunk.css","sourcesContent":["button\n{\n    background-color:#e83e8c;\n    border-radius: 20%;\n    font-size: larger;\n}\n\nnav{\n    background-color: #6610f2;\n}\n\n.nav-text{\n    color: white;\n}"]}
