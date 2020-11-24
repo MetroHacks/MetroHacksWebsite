@@ -73,6 +73,8 @@ nav {
   color: white;
   width: 100%
   margin-right: 2%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .call-to-action:hover {
@@ -420,6 +422,26 @@ footer h2, h3 {
 
 .spacing-ceremony {
   margin-bottom: 10%;
+}
+
+.sponsors-img {
+  width: 100%;
+}
+
+.sponsors {
+  background-color: #41B8C8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.sponsors a {
+  color: #3d3cbf;
+}
+
+.sponsors a:hover {
+  color: #FF3F61;
+  text-decoration: none;
 }
 
 /* do not group these rules */
