@@ -450,6 +450,14 @@ footer h2, h3 {
   text-decoration: none;
 }
 
+.element {
+  background-image: url('target.png');
+}
+
+.element:hover {
+  background-image: url('target.gif');
+}
+
 /* do not group these rules */
 *::-webkit-input-placeholder {
     color: white;
