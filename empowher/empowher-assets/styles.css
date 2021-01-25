@@ -450,12 +450,38 @@ footer h2, h3 {
   text-decoration: none;
 }
 
-.element {
-  background-image: url('target.png');
+.announcement {
+  margin-right: 15px;
 }
 
-.element:hover {
-  background-image: url('target.gif');
+#announcement-nav {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.announcement-button {
+  border-radius: 100px;
+  color: white;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: 'glindifference';
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  background-color: #ff3f61;
+}
+
+.announcement-button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #b8b8f3;
+}
+
+#announcement {
+  color: black;
 }
 
 /* do not group these rules */
@@ -520,5 +546,10 @@ footer h2, h3 {
 
   .team_pic {
     margin-top: 15px;
+  }
+
+  .register {
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 }
