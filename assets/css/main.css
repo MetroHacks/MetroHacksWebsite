@@ -97,6 +97,9 @@ section#options {
 .sponsor{
   padding: 16px;
 }
+.sponsors-img {
+  width: 100%;
+}
 video {
   margin-left: auto;
   margin-right: auto;
